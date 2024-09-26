@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/./logo.reg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#3c527b;
+    border-radius: 10px;
+    opacity: 0.7;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+
+/* .container{
+    background: #ff5361;
+    color: white;
+    text-decoration: none;
+    padding: 2px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: inline-block;
+} */
+  
+  form h2 {
+    text-align: center;
+    color:solid rgb(251, 5, 5);
+  }
+  .logo{
+    width: 75px;
+  }
+
+  .bg-image{
+    background-image: url(images/./dubai.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 800px; */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .btn-register{
+    color: rgb(0, 85, 255);
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 40%;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+
+  .btn-register:hover{
+    background-color:rgb(0, 85, 255); 
+    color: white;
+ }
+
+ .btn-register:active{
+    border: 1px solid rgb(0, 0, 0); 
+ }
+ .container1{
+  margin-left: 28%;
+ }
+ .container2{
+  margin-left: 29%;
+ }
+ .container3{
+  margin-left: 22%;
+ }
+ .container4{
+  margin-left: 32%;
+ }
+ .container5{
+  text-align: center;
+ }
+
+ 
+
+  
